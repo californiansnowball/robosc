@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+#firstsec {
+  height: 100vh;
+  background-color: #141024;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#logo {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 255px;
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+
+  font-family: 'Jost', sans-serif;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 35px;
+}
+
+#number {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+}
+
+#baba {
+  display: flex;
+  justify-content: center;
+  column-gap: 150px;
+  align-items: center;
+}
+
+#baba button {
+  background-color: #d52027;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-family: 'Jost';
+  height: 80px;
+  width: 260px;
+  margin-top: 10%;
+}
+#babainf h1 {
+  font-family: 'Jost';
+  font-size: 70px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10%;
+}
+#baba p {
+  font-size: 20px;
+  color: white;
+  font-family: 'Jost';
+  width: 470px;
+}
+#babainf {
+  display: flex;
+  flex-direction: column;
+}
+#baba img {
+  width: 500px;
+}
+#labelrobo {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 350px;
+  margin-left: 330px;
+}
+
+#label1 {
+  color: white;
+  font-family: 'Jost', sans-serif;
+  margin-left: 330px;
+  margin-top: 50px;
+}
+
+#zapis {
+  margin-left: 330px;
+  margin-top: 50px;
+}
+#zapis button {
+  width: 260px;
+  height: 80px;
+  background: #d52027;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+}
+#label2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 30px;
+  margin-left: 330px;
+  margin-top: 75px;
+  padding: 75px;
+  width: 900px;
+}
+
+.lol {
+  display: flex;
+  margin-left: 300px;
+
+  font-family: 'Jost', sans-serif;
+  margin-bottom: 150px;
+}
+.lol h2 {
+  color: #d52027;
+  font-size: 70px;
+}
+.viebon {
+  margin-left: 35px;
+  font-size: 18px;
+  color: #141024b2;
+  width: 260px;
+}
+#secondsec {
+  background-color: #f9f9f9;
+  padding-top: 50px;
+}
+#secondsec h1 {
+  font-size: 50px;
+  font-family: 'Jost', sans-serif;
+  margin-left: 330px;
+  font-weight: 800;
+}
+.aft {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 75px;
+}
+.afterkursart {
+  margin-left: 35px;
+  width: 360px;
+}
+
+.afterkursart h5 {
+  font-family: 'Jost', sans-serif;
+  font-size: 24px;
+}
+.afterkursart p {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  color: #141024b2;
+  padding-top: 25px;
+}
+.nujn {
+  font-size: 50px;
+  font-family: 'Jost';
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 15px;
+}
+.paketi {
+  width: 360px;
+  height: 460px;
+  background: #ffffff42;
+  border: 1px solid #14102433;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+.paketi p {
+  font-size: 30px;
+  margin-left: 35%;
+  margin-top: 8%;
+  font-family: 'Jost';
+}
+.paketi .cena p {
+  font-size: 50px;
+  margin-left: 20%;
+  margin-top: 25%;
+  font-weight: bold;
+}
+.paketi .textpodcena p {
+  font-size: 18px;
+  margin-left: 20%;
+}
+.textpodcena button {
+  background-color: #d52027;
+  border-radius: 5px;
+  border-style: none;
+  padding: 25px 54px 25px 54px;
+  color: white;
+  font-family: 'Jost';
+  margin: 20%;
+}
+.paketi:hover {
+  background-color: #090229de;
+  color: white;
+  width: 400px;
+  height: 500px;
+}
+.paketi button:hover {
+  background-color: rgb(1, 1, 10);
+}
+.pok {
+  display: flex;
+}
+.choosepack {
+  margin-left: 17%;
+}
+footer {
+  background-color: #d52027;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.nadpfut .zap {
+  font-size: 36px;
+  width: 400px;
+  font-family: 'Jost';
+  color: white;
+  font-weight: 1000;
+}
+.nadpfut .ak {
+  font-size: 20px;
+  font-family: 'Jost';
+  color: white;
+}
+.f1 {
+  margin-left: 25%;
+}
+.polya #vvodimya {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+}
+.polya #vvodtel {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.polya #mail {
+  margin-left: 150px;
+  margin-bottom: 10px;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+}
+.polya button {
+  margin-left: 150px;
+  margin-bottom: 25px;
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  font-family: 'Jost';
+  font-size: 15px;
+  background-color: #141024;
+  color: white;
+}
+.f2 {
+  background-color: #141024;
+  color: white;
+  height: 159px;
+  padding: 0 100px;
+  padding-top: 50px;
+}
+
+.rbscl p {
+  font-family: 'Jost';
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: 'Jost', Arial, sans-serif;
+}
+.right {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+  font-family: 'Jost', Arial, sans-serif;
+}
